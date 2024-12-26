@@ -1,0 +1,13 @@
+#### Task 1: Custom Functional Interface #####
+Create a custom functional interface called StringOperator with a method String apply(String input).
+Implement this interface using lambdas for the following operations:
+    1. Convert the string to uppercase.
+    2. Convert the string to lowercase.
+    3. Reverse the string.
+
+#### Task 2: Use Predicate and Consumer #####
+Predicate: Write a Predicate to check if a string contains more than 5 characters.
+Consumer: Write a Consumer that takes a string and prints it in a formatted way, like "String: [your_string]".
+
+### Task 3 :  built-in functional interfaces
+- Write the code for : Predicate, Function, Consumer, Supplier and Runnable

@@ -1,0 +1,14 @@
+### Task 1: Sorting and Filtering ###
+    1 - Create a Person class with name and age fields.
+    2 - Write a program that:
+        - Filters out people who are under 18.
+        - Sorts the remaining people by their names in ascending order.
+        - Print the names of the filtered and sorted people using a lambda expression.
+
+### Task 2: Apply a Function ###
+    - Write a program that applies a function to convert a list of integers to their string representations.
+    Example: Convert [1, 2, 3] to ["1", "2", "3"]
+
+### Task 3: Use BiFunction ###
+    - Create a BiFunction that takes two String arguments and returns their concatenation.
+    Example: "Hello", "World" -> "HelloWorld"

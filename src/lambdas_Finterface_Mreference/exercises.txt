@@ -1,0 +1,38 @@
+### Exercise 1: Combining Lambdas, Method References, and Functional Interfaces ###
+
+Task 1: Stream Pipeline
+Given a list of integers, write a program that:
+- Filters out numbers less than 10 using a Predicate.
+- Doubles the remaining numbers using a Function.
+- Prints each number using a method reference.
+
+Task 2: Data Transformation
+You are given a list of Book objects (with fields String title and int pages).
+Write a program that:
+- Filters books with more than 200 pages.
+- Converts each book title to uppercase.
+- Sorts the titles alphabetically.
+- Prints the titles of the books.
+
+### Exercise 2: Advanced Practice ###
+
+Task 1: List Transformation
+You are given a list of names (strings).
+Write a program to:
+- Remove all names that have fewer than 4 characters.
+- Reverse the remaining names.
+- Sort them alphabetically.
+- Print the transformed list using a method reference.
+
+Task 2: Combine Multiple Interfaces
+Implement a simple calculator using functional interfaces:
+- Use a BinaryOperator<Integer> for addition and subtraction.
+- Use a UnaryOperator<Integer> for negation.
+- Apply these operations sequentially on an integer value (for example: negate, add 10, subtract 5).
+- Print the result after each operation.
+
+Task 3: Grouping and Summing
+Given a list of Order objects (with fields String customerName and double orderTotal), write a program that:
+- Groups the orders by customerName.
+- Sums the total of orders for each customer using the Collectors.groupingBy() and Collectors.summingDouble() methods.
+- Print the result as a map where the key is the customer name and the value is the total of their orders.

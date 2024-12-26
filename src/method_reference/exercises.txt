@@ -1,0 +1,12 @@
+### Task 1: Method Reference for Sorting ###
+    1. Create a list of Person objects (same as in Exercise 2).
+    2. Sort the list by age using a method reference and print the sorted list.
+
+### Task 2: Method Reference for Conversion ###
+    1. Use a method reference to convert a list of String objects to uppercase and print the results.
+        .Example: ["hello", "world"] -> ["HELLO", "WORLD"]
+
+### Task 3: Constructor Method Reference ###
+    1. Create a Product class with a String name and double price constructor.
+    2. Use a constructor method reference to create a list of products from a list of names and prices.
+        .Example: ["Apple", "Banana"] and [1.5, 0.8] should be converted into Product objects.
