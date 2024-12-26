@@ -1,11 +1,15 @@
 package utils;
 
+import java.util.Optional;
+
 public class Address {
     private String city;
+    private String street;
 
     public Address(String city) {
         this.city = city;
     }
+
 
     public Address() {
     }
@@ -14,7 +18,11 @@ public class Address {
         return city;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public Optional<String> getStreet() {
+        return Optional.ofNullable(street);
     }
 }
