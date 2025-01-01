@@ -10,8 +10,9 @@ This repository contains notes and exercises on key Java 8 features.
 - 🌊 **Streams API**
 - 📦 **Collectors**
 - 🛡️ **Optional**
+- 🧩 **Static and Default Interface Methods**
+- ⚡ Arrays and Collections
 
 ## 🛠️ **Upcoming Topics:**
-- 🧩 **Static and Default Interface Methods**
 - 📅 **Date & Time API**
 - 🚀 **Other Advanced Java 8 Features**

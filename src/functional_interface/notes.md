@@ -125,3 +125,16 @@ interface InvalidInterface {
 
 ---
 
+# Java Predicate Composition
+
+### 1. **and**
+- Combines two predicates with a **logical AND**.
+- Both predicates must evaluate to `true` for the result to be `true`.
+
+### 2. **or**
+- Combines two predicates with a **logical OR**.
+- At least one predicate must evaluate to `true` for the result to be `true`.
+
+### 3. **negate**
+- Returns the **logical negation** of a predicate.
+- If the predicate evaluates to `true`, `negate` returns `false`, and vice versa.
